@@ -1,8 +1,5 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
 import portait from '../images/IMG_0941.jpg'
 import dev from '../images/dev.png'
 import flash from '../images/Screen Shot 2020-05-29 at 11.31.42 AM 2.png'
@@ -34,7 +31,7 @@ class Main extends React.Component {
         >
           <h2 className="major">About</h2>
           <span className="image main" >
-            <img src={portait} alt="well" />
+            <img src={portait} alt="Ammon Burgi" />
           </span>
           <p>
             Hey, I'm Ammon! Welcome to my Portfolio! I'm excited to show you what I have learned through my journey of Web Development. I love developing Challenging and Creative projects! I enjoy working with a team to accomplish great things! I always strive to Work Hard while keeping Positivity inside and outside of my workspace!
@@ -59,7 +56,7 @@ class Main extends React.Component {
           <h2 className="major">Experience</h2>
           <a href='https://devmountain.com/'>
           <span className="image main">
-            <img src={dev} alt="" />
+            <img src={dev} alt="Dev Mountain" />
           </span>
           </a>
           <p>
@@ -69,7 +66,7 @@ class Main extends React.Component {
           <h3 className="major">Flash Drills Group Project</h3>
           </a>
           <span className="image main">
-            <img src={flash} alt="" />
+            <img src={flash} alt="flash drills app" />
           </span>
           <a href='http://157.245.234.177:4900/'>
           <h4>Flash Drills Link></h4>
@@ -84,7 +81,7 @@ class Main extends React.Component {
           <h3 className="major">The Journal Of Life Personal Project</h3>
           </a>
           <span className="image main">
-            <img src={journal} alt="" />
+            <img src={journal} alt="journal app" />
           </span>
           <a href='http://157.245.234.177:4002/'>
           <h4>The Journal Of Life Link></h4>
@@ -138,7 +135,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <p>Check out the Links below!</p>
+          <form method="post" action="https://formspree.io/ammonburgi@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -167,6 +165,14 @@ class Main extends React.Component {
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/ammon-burgi-380279199/"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
               </a>
             </li>
           </ul>
