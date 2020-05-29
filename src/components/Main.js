@@ -103,19 +103,30 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Skills</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
-          </p>
+          <h3 className="major">Programming Languages</h3>
+          <ul>
+            <li>JavaScript</li>
+            <li>HTML 5</li>
+            <li>CSS 3</li>
+            <li>Git & Github</li>
+            <li>ReactJS</li>
+          </ul>
+          <h3 className="major">Additional Skills</h3>
+          <ul>
+            <li>PostgreSQL</li>
+            <li>Redux</li>
+            <li>Nodemailer</li>
+            <li>Express</li>
+            <li>Express-Session</li>
+            <li>BcryptJS</li>
+            <li>Socker.io</li>
+            <li>Styled-Components</li>
+            <li>Material-UI</li>
+            <li>MassiveJS</li>
+            <li>QuillJS</li>
+            <li>Adobe Photoshop</li>
+            <li>Hosting</li>
+          </ul>
           {close}
         </article>
 
@@ -152,25 +163,7 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/AmmonBurgi"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
