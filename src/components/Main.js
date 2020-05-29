@@ -4,6 +4,9 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 import portait from '../images/IMG_0941.jpg'
+import dev from '../images/dev.png'
+import flash from '../images/Screen Shot 2020-05-29 at 11.31.42 AM 2.png'
+import journal from '../images/Screen Shot 2020-05-29 at 12.19.39 PM.png'
 
 class Main extends React.Component {
   render() {
@@ -29,7 +32,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">About</h2>
           <span className="image main" >
             <img src={portait} alt="well" />
           </span>
@@ -53,25 +56,43 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Experience</h2>
+          <a href='https://devmountain.com/'>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={dev} alt="" />
           </span>
+          </a>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+            I started my journey as a Web Developer at DevMountain. DevMountain is a private coding bootcamp that offers a web development course. I learned everything I needed to start developing my own full-stack applications. I also learned how to work with a team remotely due to everyone in my class having to work at home because of the COVID-19 pandemic. DevMountain was a great experience and I was very pleased with the skills I was able to develop while going through their course.
           </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <a href='http://157.245.234.177:4900/'>
+          <h3 className="major">Flash Drills Group Project</h3>
+          </a>
+          <span className="image main">
+            <img src={flash} alt="" />
+          </span>
+          <a href='http://157.245.234.177:4900/'>
+          <h4>Flash Drills Link></h4>
+          </a>
+          <ul>
+            <li><p>
+              React App that was built to help users easily study any subject. Users can create a Deck and assign Topics to that deck. All Decks are made public so that other users have the opportunity to view and study each deck. Users can add Flash Card to their deck and can study each card. The User also has the option to rate each card on how well they know the card.  
+            </p></li>
+            <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || AmazonS3 || MaterialUI</p></li>
+          </ul>
+          <a href='http://157.245.234.177:4002/'>
+          <h3 className="major">The Journal Of Life Personal Project</h3>
+          </a>
+          <span className="image main">
+            <img src={journal} alt="" />
+          </span>
+          <a href='http://157.245.234.177:4002/'>
+          <h4>The Journal Of Life Link></h4>
+          </a>
+          <ul>
+            <li><p>React App that was built to provide an easy way for users to save and share their experiences. Users can create Entries and Goals that they can later view and edit. Users can also join a live chat room where they can share their ideas and experiences with other users.</p></li>
+            <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || Socket.IO || Massive</p></li>
+          </ul>
           {close}
         </article>
 
@@ -82,7 +103,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Skills</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>

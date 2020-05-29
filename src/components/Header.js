@@ -22,7 +22,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            About
           </button>
         </li>
         <li>
@@ -30,8 +30,9 @@ const Header = props => (
             onClick={() => {
               props.onOpenArticle('work')
             }}
+            // style={{'width': '10.4em'}}
           >
-            Work
+            Experience
           </button>
         </li>
         <li>
@@ -39,8 +40,9 @@ const Header = props => (
             onClick={() => {
               props.onOpenArticle('about')
             }}
+            style={{'width': '11em'}}
           >
-            About
+            Skills
           </button>
         </li>
         <li>
