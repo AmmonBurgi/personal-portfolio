@@ -1,0 +1,14 @@
+@media (max-width: 425px){
+    .about-button{
+        margin-left: 1.5em;
+    }
+    .Experience-button{
+        margin-left: .6em;
+    }
+    .Skills-button{
+        margin-left: .6em;
+    }
+    .Contact-button{
+        margin-left: 1.3em;
+    }
+}

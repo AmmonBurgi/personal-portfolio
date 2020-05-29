@@ -33,6 +33,7 @@ class Main extends React.Component {
           <span className="image main" >
             <img src={portait} alt="Ammon Burgi" />
           </span>
+          <a href='https://docs.google.com/document/d/1EMIf5zGvvjSfHViZ4DgF9rroRoXMMVAm72sB24F4tQg/edit?usp=sharing'>Download my Resume Here!</a>
           <p>
             Hey, I'm Ammon! Welcome to my Portfolio! I'm excited to show you what I have learned through my journey of Web Development. I love developing Challenging and Creative projects! I enjoy working with a team to accomplish great things! I always strive to Work Hard while keeping Positivity inside and outside of my workspace!
           </p>
@@ -69,7 +70,7 @@ class Main extends React.Component {
             <img src={flash} alt="flash drills app" />
           </span>
           <a href='http://157.245.234.177:4900/'>
-          <h4>Flash Drills Link></h4>
+            Flash Drills Link!
           </a>
           <ul>
             <li><p>
@@ -84,7 +85,7 @@ class Main extends React.Component {
             <img src={journal} alt="journal app" />
           </span>
           <a href='http://157.245.234.177:4002/'>
-          <h4>The Journal Of Life Link></h4>
+            The Journal Of Life Link!
           </a>
           <ul>
             <li><p>React App that was built to provide an easy way for users to save and share their experiences. Users can create Entries and Goals that they can later view and edit. Users can also join a live chat room where they can share their ideas and experiences with other users.</p></li>

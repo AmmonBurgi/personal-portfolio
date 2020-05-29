@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import '../assets/css/head.css'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
@@ -18,25 +19,29 @@ const Header = props => (
       <ul>
         <li>
           <button
+          className='about-button'
             onClick={() => {
               props.onOpenArticle('intro')
             }}
+            // style={{display: 'flex', justifyContent: 'flex-end'}}
           >
             About
           </button>
         </li>
         <li>
           <button
+          className='Experience-button'
             onClick={() => {
               props.onOpenArticle('work')
             }}
-            // style={{'width': '10.4em'}}
+            // style={{'paddingLeft': '2.5em'}}
           >
             Experience
           </button>
         </li>
         <li>
           <button
+          className='Skills-button'
             onClick={() => {
               props.onOpenArticle('about')
             }}
@@ -47,6 +52,7 @@ const Header = props => (
         </li>
         <li>
           <button
+          className='Contact-button'
             onClick={() => {
               props.onOpenArticle('contact')
             }}
