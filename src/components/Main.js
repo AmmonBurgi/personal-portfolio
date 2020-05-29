@@ -3,6 +3,7 @@ import React from 'react'
 import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import portait from '../images/IMG_0941.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,29 +30,19 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
+          <span className="image main" >
+            <img src={portait} alt="well" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Hey, I'm Ammon! Welcome to my Portfolio! I'm excited to show you what I have learned through my journey of Web Development. I love developing Challenging and Creative projects! I enjoy working with a team to accomplish great things! I always strive to Work Hard while keeping Positivity inside and outside of my workspace!
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <h3 className="major">Fun Facts About Me</h3>
+          <ul>
+            <li>I have a passion for Basketball and Snowboarding!</li>
+            <li>I have a huge Family (13 Siblings), that I love spending time with!</li>
+            <li>I love reading a good Fictional/Fantasy book!</li>
+            <li>I enjoy Traveling!</li>
+          </ul>
           {close}
         </article>
 

@@ -3,18 +3,14 @@ import React from 'react'
 
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
-    <div className="logo">
+    {/* <div className="logo">
       <span className="icon fa-diamond"></span>
-    </div>
+    </div> */}
     <div className="content">
       <div className="inner">
         <h1>Ammon Burgi</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
-          <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+         Learning and Developing my skills Each And Every Day!
         </p>
       </div>
     </div>
