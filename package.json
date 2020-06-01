@@ -18,7 +18,7 @@
   ],
   "license": "MIT",
   "scripts": {
-    "start": "gatsby serve",
+    "start": "gatsby serve --host=0.0.0.0",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
