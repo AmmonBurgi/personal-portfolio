@@ -101,26 +101,31 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h3 className="major">Programming Languages</h3>
+          <h3 className="major">Front-End Skills </h3>
           <ul>
-            <li>JavaScript</li>
             <li>HTML 5</li>
             <li>CSS 3</li>
-            <li>Git & Github</li>
-            <li>ReactJS</li>
+            <li>Styled-Components</li>
+            <li>Material-UI</li>
           </ul>
-          <h3 className="major">Additional Skills</h3>
+          <h3 className="major">Back-End Skills</h3>
           <ul>
             <li>PostgreSQL</li>
-            <li>Redux</li>
-            <li>Nodemailer</li>
+            <li>NodeJS</li>
             <li>Express</li>
             <li>Express-Session</li>
             <li>BcryptJS</li>
-            <li>Socker.io</li>
-            <li>Styled-Components</li>
-            <li>Material-UI</li>
             <li>MassiveJS</li>
+          </ul>
+          <h3 className="major">Additional Skills</h3>
+          <ul>
+            <li>ReactJS</li>
+            <li>JavaScript</li>
+            <li>Git & Github</li>
+            <li>Redux</li>
+            <li>React Hooks</li>
+            <li>Socket.io</li>
+            <li>Nodemailer</li>
             <li>QuillJS</li>
             <li>Adobe Photoshop</li>
             <li>Hosting</li>
