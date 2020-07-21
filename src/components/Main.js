@@ -4,6 +4,7 @@ import portait from '../images/IMG_0941.jpg'
 import dev from '../images/dev.png'
 import flash from '../images/Screen Shot 2020-05-29 at 11.31.42 AM 2.png'
 import journal from '../images/Screen Shot 2020-05-29 at 12.19.39 PM.png'
+import sports from '../images/Screen Shot 2020-07-21 at 2.36.53 PM.png'
 
 class Main extends React.Component {
   render() {
@@ -63,6 +64,22 @@ class Main extends React.Component {
           <p>
             I started my journey as a Web Developer at DevMountain. DevMountain is a private coding bootcamp that offers a web development course. I learned everything I needed to start developing my own full-stack applications. I also learned how to work with a team remotely due to everyone in my class having to work at home because of the COVID-19 pandemic. DevMountain was a great experience and I was very pleased with the skills I was able to develop while going through their course.
           </p>
+          <a href='https://gotsports.info/'>
+          <h3 className="major">Flash Drills Group Project</h3>
+          </a>
+          <span className="image main">
+            <img src={sports} alt="E-commerce App" />
+          </span>
+          <a href='https://gotsports.info/'>
+            E-commerce Sports Link! 
+          </a>
+          <ul>
+            <li><p>
+              React App that's focused on a pleasing User Interface as well as payment capabilities for purchasing products. Prioritizing edge cases to prevent any potential bugs. Provided extra capabilities to users with admin access. Utilized CSS Media Queries for responsive design between multiple screen sizes.
+            </p></li>
+            <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || Stripe || React-Slick</p></li>
+          </ul>
+
           <a href='http://157.245.234.177:4900/'>
           <h3 className="major">Flash Drills Group Project</h3>
           </a>
@@ -122,10 +139,12 @@ class Main extends React.Component {
             <li>ReactJS</li>
             <li>JavaScript</li>
             <li>Git & Github</li>
+            <li>Stripe</li>
             <li>Redux</li>
             <li>React Hooks</li>
             <li>Socket.io</li>
             <li>Nodemailer</li>
+            <li>React-Slick</li>
             <li>QuillJS</li>
             <li>Adobe Photoshop</li>
             <li>Hosting</li>
