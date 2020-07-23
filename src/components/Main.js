@@ -65,7 +65,7 @@ class Main extends React.Component {
             I started my journey as a Web Developer at DevMountain. DevMountain is a private coding bootcamp that offers a web development course. I learned everything I needed to start developing my own full-stack applications. I also learned how to work with a team remotely due to everyone in my class having to work at home because of the COVID-19 pandemic. DevMountain was a great experience and I was very pleased with the skills I was able to develop while going through their course.
           </p>
           <a href='https://gotsports.info/'>
-          <h3 className="major">Flash Drills Group Project</h3>
+          <h3 className="major">E-commerce Sports Project</h3>
           </a>
           <span className="image main">
             <img src={sports} alt="E-commerce App" />
