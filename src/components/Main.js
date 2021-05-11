@@ -4,7 +4,9 @@ import portait from '../images/IMG_0941.jpg'
 import dev from '../images/dev.png'
 import flash from '../images/Screen Shot 2020-05-29 at 11.31.42 AM 2.png'
 import journal from '../images/Screen Shot 2020-05-29 at 12.19.39 PM.png'
-import sports from '../images/Screen Shot 2020-07-21 at 2.36.53 PM.png'
+import sports from '../images/Screen Shot 2020-07-21 at 2.36.53 PM.png';
+import vacayEcomm from '../images/vacay-ecom.png';
+import elevateSolar from '../images/elevate-solar.png';
 
 class Main extends React.Component {
   render() {
@@ -64,6 +66,39 @@ class Main extends React.Component {
           <p>
             I started my journey as a Web Developer at DevMountain. DevMountain is a private coding bootcamp that offers a web development course. I learned everything I needed to start developing my own full-stack applications. I also learned how to work with a team remotely due to everyone in my class having to work at home because of the COVID-19 pandemic. DevMountain was a great experience and I was very pleased with the skills I was able to develop while going through their course.
           </p>
+
+          <a href='http://157.245.234.177:4030/'>
+          <h3 className="major">Elevate Solar Project</h3>
+          </a>
+          <span className="image main">
+            <img src={elevateSolar} alt="Elevate Solar website" />
+          </span>
+          <a href='http://157.245.234.177:4030/'>
+            Elevate Solar! 
+          </a>
+          <ul>
+            <li><p>
+              React E-commerce application focused on selling Vacay sunglasses. The application has full shipping and purchase capabilities. Provided the extra ability to view purchase history by utilizing SQL Database. Prioritized password reset capabilities by creating unique token in server and sending it through SendGrid.
+            </p></li>
+            <li><p>React || Node || PostgreSQL || SendGrid || Redux || Bcryptjs || Stripe || Express </p></li>
+          </ul>
+
+          <a href='http://157.245.234.177:4046/'>
+          <h3 className="major">Vacay E-commerce Project</h3>
+          </a>
+          <span className="image main">
+            <img src={vacayEcomm} alt="Vacay E-commerce website" />
+          </span>
+          <a href='http://157.245.234.177:4046/'>
+            Vacay E-commerce! 
+          </a>
+          <ul>
+            <li><p>
+              React E-commerce application focused on selling Vacay sunglasses. The application has full shipping and purchase capabilities. Provided the extra ability to view purchase history by utilizing SQL Database. Prioritized password reset capabilities by creating unique token in server and sending it through SendGrid.
+            </p></li>
+            <li><p>React || Node || PostgreSQL || SendGrid || Redux || Bcryptjs || Stripe || Express </p></li>
+          </ul>
+
           <a href='https://gotsports.info/'>
           <h3 className="major">E-commerce Sports Project</h3>
           </a>
