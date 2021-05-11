@@ -74,13 +74,13 @@ class Main extends React.Component {
             <img src={elevateSolar} alt="Elevate Solar website" />
           </span>
           <a href='http://157.245.234.177:4030/'>
-            Elevate Solar! 
+            Elevate Solar Energy! 
           </a>
           <ul>
             <li><p>
-              React E-commerce application focused on selling Vacay sunglasses. The application has full shipping and purchase capabilities. Provided the extra ability to view purchase history by utilizing SQL Database. Prioritized password reset capabilities by creating unique token in server and sending it through SendGrid.
+              React application focused on providing solar information and scheduling solar quotes and appointments. Utilized React-Calendar for precise scheduling capabilities. Provided forms for both quotes and job applications. Improved Search Engine Optimization by utilizing React-Helmet. Complete fully responsive web design.
             </p></li>
-            <li><p>React || Node || PostgreSQL || SendGrid || Redux || Bcryptjs || Stripe || Express </p></li>
+            <li><p>React || Node || PostgreSQL || SendGrid || Express || React-Calendar || React-Helmet </p></li>
           </ul>
 
           <a href='http://157.245.234.177:4046/'>
@@ -175,6 +175,8 @@ class Main extends React.Component {
             <li>JavaScript</li>
             <li>Git & Github</li>
             <li>Stripe</li>
+            <li>SendGrid</li>
+            <li>React-Calendar</li>
             <li>Redux</li>
             <li>React Hooks</li>
             <li>Socket.io</li>
