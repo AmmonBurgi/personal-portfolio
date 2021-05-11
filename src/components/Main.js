@@ -6,7 +6,7 @@ import flash from '../images/Screen Shot 2020-05-29 at 11.31.42 AM 2.png'
 import journal from '../images/Screen Shot 2020-05-29 at 12.19.39 PM.png'
 import sports from '../images/Screen Shot 2020-07-21 at 2.36.53 PM.png';
 import vacayEcomm from '../images/vacay-ecom.png';
-import elevateSolar from '../images/elevate-solar.png';
+import elevateSolar from '../images/elevate-solar.png'
 
 class Main extends React.Component {
   render() {
@@ -36,7 +36,6 @@ class Main extends React.Component {
           <span className="image main" >
             <img src={portait} alt="Ammon Burgi" />
           </span>
-          <a href='https://docs.google.com/document/d/1EMIf5zGvvjSfHViZ4DgF9rroRoXMMVAm72sB24F4tQg/edit?usp=sharing'>Download my Resume Here!</a>
           <p>
             Hey, I'm Ammon! Welcome to my Portfolio! I'm excited to show you what I have learned through my journey of Web Development. I love developing Challenging and Creative projects! I enjoy working with a team to accomplish great things! I always strive to Work Hard while keeping Positivity inside and outside of my workspace!
           </p>
