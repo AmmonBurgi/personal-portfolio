@@ -197,6 +197,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Contact</h2>
           <p>Check out the Links below!</p>
+          <p>Please contact me if you want a copy of my resume.</p>
           <form method="post" action="https://formspree.io/ammonburgi@gmail.com">
             <div className="field half first">
               <label htmlFor="name">Name</label>
