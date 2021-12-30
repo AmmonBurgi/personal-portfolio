@@ -7,6 +7,7 @@ import journal from '../images/Screen Shot 2020-05-29 at 12.19.39 PM.png'
 import sports from '../images/Screen Shot 2020-07-21 at 2.36.53 PM.png';
 import vacayEcomm from '../images/vacay-ecom.png';
 import elevateSolar from '../images/elevate-solar.png'
+import indicio from '../images/indicio-logo.jpeg'
 
 class Main extends React.Component {
   render() {
@@ -66,14 +67,30 @@ class Main extends React.Component {
             I started my journey as a Web Developer at DevMountain. DevMountain is a private coding bootcamp that offers a web development course. I learned everything I needed to start developing my own full-stack applications. I also learned how to work with a team remotely due to everyone in my class having to work at home because of the COVID-19 pandemic. DevMountain was a great experience and I was very pleased with the skills I was able to develop while going through their course.
           </p>
 
-          <a href='http://157.245.234.177:4030/'>
+          <a href='https://indicio.tech/'>
+          <h3 className="major">UI/UX Software Engineer</h3>
+          </a>
+          <span className="image main">
+            <img src={indicio} alt="Indicio Website" />
+          </span>
+          <h4>
+            June 2021 - Present
+          </h4>
+          <ul>
+            <li><p>
+              I work as a Software Engineer at Indicio, where I develop User Interfaces for the Decentralized Identity Ecosystem. Working in a team setting, I have learned to create and manage my tasks using the Jira software. My most notable accomplishments have been implementing Hashlink URL encoding for digital credentials, participating in an interop-athon, and developing a SAML 2.0 Service Provider and Identity Provider for Single Sign-On capabilities.
+            </p></li>
+            <li><p>React || Node || Passport || SAML 2.0 || Express || Hashlinks || WebSockets || Jira </p></li>
+          </ul>
+
+          <a href='http://165.227.64.59:4030/'>
           <h3 className="major">Elevate Solar Project</h3>
           </a>
           <span className="image main">
             <img src={elevateSolar} alt="Elevate Solar website" />
           </span>
-          <a href='http://157.245.234.177:4030/'>
-            Elevate Solar Energy! 
+          <a href='http://165.227.64.59:4030/'>
+            Elevate Solar Energy Link
           </a>
           <ul>
             <li><p>
@@ -82,14 +99,14 @@ class Main extends React.Component {
             <li><p>React || Node || PostgreSQL || SendGrid || Express || React-Calendar || React-Helmet </p></li>
           </ul>
 
-          <a href='http://157.245.234.177:4046/'>
+          <a href='http://165.227.64.59:4046/'>
           <h3 className="major">Vacay E-commerce Project</h3>
           </a>
           <span className="image main">
             <img src={vacayEcomm} alt="Vacay E-commerce website" />
           </span>
-          <a href='http://157.245.234.177:4046/'>
-            Vacay E-commerce! 
+          <a href='http://165.227.64.59:4046/'>
+            Vacay E-commerce Link
           </a>
           <ul>
             <li><p>
@@ -105,7 +122,7 @@ class Main extends React.Component {
             <img src={sports} alt="E-commerce App" />
           </span>
           <a href='https://gotsports.info/'>
-            E-commerce Sports Link! 
+            E-commerce Sports Link
           </a>
           <ul>
             <li><p>
@@ -114,30 +131,20 @@ class Main extends React.Component {
             <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || Stripe || React-Slick</p></li>
           </ul>
 
-          <a href='http://157.245.234.177:4900/'>
           <h3 className="major">Flash Drills Group Project</h3>
-          </a>
           <span className="image main">
             <img src={flash} alt="flash drills app" />
           </span>
-          <a href='http://157.245.234.177:4900/'>
-            Flash Drills Link!
-          </a>
           <ul>
             <li><p>
               React App that was built to help users easily study any subject. Users can create a Deck and assign Topics to that deck. All Decks are made public so that other users have the opportunity to view and study each deck. Users can add Flash Card to their deck and can study each card. The User also has the option to rate each card on how well they know the card.  
             </p></li>
             <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || AmazonS3 || MaterialUI</p></li>
           </ul>
-          <a href='http://157.245.234.177:4002/'>
           <h3 className="major">The Journal Of Life Personal Project</h3>
-          </a>
           <span className="image main">
             <img src={journal} alt="journal app" />
           </span>
-          <a href='http://157.245.234.177:4002/'>
-            The Journal Of Life Link!
-          </a>
           <ul>
             <li><p>React App that was built to provide an easy way for users to save and share their experiences. Users can create Entries and Goals that they can later view and edit. Users can also join a live chat room where they can share their ideas and experiences with other users.</p></li>
             <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || Socket.IO || Massive</p></li>
@@ -166,24 +173,31 @@ class Main extends React.Component {
             <li>Express</li>
             <li>Express-Session</li>
             <li>BcryptJS</li>
+            <li>Passport</li>
+            <li>Sequalize</li>
+            <li>DB-Migrate</li>
             <li>MassiveJS</li>
           </ul>
           <h3 className="major">Additional Skills</h3>
           <ul>
             <li>ReactJS</li>
             <li>JavaScript</li>
+            <li>Jira</li>
             <li>Git & Github</li>
             <li>Stripe</li>
+            <li>SAML 2.0</li>
+            <li>Hashlinks</li>
             <li>SendGrid</li>
             <li>React-Calendar</li>
             <li>Redux</li>
             <li>React Hooks</li>
-            <li>Socket.io</li>
+            <li>WebSockets</li>
             <li>Nodemailer</li>
             <li>React-Slick</li>
             <li>QuillJS</li>
             <li>Adobe Photoshop</li>
             <li>Hosting</li>
+            <li>Documentation</li>
           </ul>
           {close}
         </article>
