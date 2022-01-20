@@ -80,7 +80,7 @@ class Main extends React.Component {
             <li><p>
               I work as a Software Engineer at Indicio, where I develop User Interfaces for the Decentralized Identity Ecosystem. Working in a team setting, I have learned to create and manage my tasks using the Jira software. My most notable accomplishments have been implementing Hashlink URL encoding for digital credentials, participating in an interop-athon, and developing a SAML 2.0 Service Provider and Identity Provider for Single Sign-On capabilities.
             </p></li>
-            <li><p>React || Node || Passport || SAML 2.0 || Express || Hashlinks || WebSockets || Jira </p></li>
+            <li><p>React || NodeJS || Passport || SAML 2.0 || Docker || Hashlinks || WebSockets || Jira </p></li>
           </ul>
 
           <a href='http://165.227.64.59:4030/'>
@@ -96,7 +96,7 @@ class Main extends React.Component {
             <li><p>
               React application focused on providing solar information and scheduling solar quotes and appointments. Utilized React-Calendar for precise scheduling capabilities. Provided forms for both quotes and job applications. Improved Search Engine Optimization by utilizing React-Helmet. Complete fully responsive web design.
             </p></li>
-            <li><p>React || Node || PostgreSQL || SendGrid || Express || React-Calendar || React-Helmet </p></li>
+            <li><p>React || NodeJS || PostgreSQL || SendGrid || Express || React-Calendar || React-Helmet </p></li>
           </ul>
 
           <a href='http://165.227.64.59:4046/'>
@@ -112,7 +112,7 @@ class Main extends React.Component {
             <li><p>
               React E-commerce application focused on selling Vacay sunglasses. The application has full shipping and purchase capabilities. Provided the extra ability to view purchase history by utilizing SQL Database. Prioritized password reset capabilities by creating unique token in server and sending it through SendGrid.
             </p></li>
-            <li><p>React || Node || PostgreSQL || SendGrid || Redux || Bcryptjs || Stripe || Express </p></li>
+            <li><p>React || NodeJS || PostgreSQL || SendGrid || Redux || Bcryptjs || Stripe || Express </p></li>
           </ul>
 
           <a href='https://gotsports.info/'>
@@ -139,7 +139,7 @@ class Main extends React.Component {
             <li><p>
               React App that was built to help users easily study any subject. Users can create a Deck and assign Topics to that deck. All Decks are made public so that other users have the opportunity to view and study each deck. Users can add Flash Card to their deck and can study each card. The User also has the option to rate each card on how well they know the card.  
             </p></li>
-            <li><p>React || Node || PostgreSQL || Express || Redux || Bcryptjs || AmazonS3 || MaterialUI</p></li>
+            <li><p>React || NodeJS || PostgreSQL || Express || Redux || Bcryptjs || AmazonS3 || MaterialUI</p></li>
           </ul>
           <h3 className="major">The Journal Of Life Personal Project</h3>
           <span className="image main">
@@ -188,6 +188,7 @@ class Main extends React.Component {
             <li>SAML 2.0</li>
             <li>Hashlinks</li>
             <li>SendGrid</li>
+            <li>Docker</li>
             <li>React-Calendar</li>
             <li>Redux</li>
             <li>React Hooks</li>
